@@ -1,0 +1,52 @@
+html {
+  backgroud-color: #e0d50d;
+}
+
+.container-fluid {
+  background-color: #e0d50d;
+  height: 700px;
+}
+
+.header {
+  background-color: blue;
+  height: 150px;
+  border-style: 5px solid #000;
+}
+
+.nav {
+  background-color: green;
+  height:50px;
+}
+
+.content {
+  background-color: red;
+  height: 200px;
+}
+
+.aside {
+  background-color: pink;
+  height: 200px;
+}
+
+.promo {
+  background-color: orange;
+  height: 170px;
+}
+
+.footer {
+  background-color: grey;
+  height: 50px;
+}
+
+
+@media (min-width: 768px) {
+  .header {
+    background-color: salmon;
+  }
+}
+
+@media (min-width:875px) and (max-width: 970px;) {
+  {
+    background-color: yellow;
+  }
+}
